@@ -18,11 +18,12 @@
 }
 
 .main {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 200px;
+    background-color: var(--bkgLight);
 }
