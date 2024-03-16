@@ -1,0 +1,19 @@
+.home-container {
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 200px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.textbox {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 55%;
+}
+
+button {
+    margin-top: 3%;
+    font-size: 18px;
+    padding: 15px 20px;
+}
