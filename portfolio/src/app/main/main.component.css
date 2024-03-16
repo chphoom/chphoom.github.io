@@ -1,0 +1,28 @@
+.sidebarR,
+.sidebarL {
+    width: 10%;
+    position: fixed;
+    background-color: gray;
+    z-index: 1;
+    /* Stay on top */
+    bottom: 0;
+    /* Stay at the top */
+}
+
+.sidebarL {
+    left: 0;
+}
+
+.sidebarR {
+    right: 0;
+}
+
+.main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}

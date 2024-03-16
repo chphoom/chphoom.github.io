@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primaryColor: #619257;
+    --secondaryColor: #886FA4;
+    --accentColor: #CFC3AA;
+    --bkgDark: #4A3824;
+    --bkgMid: #E8D5BA;
+    --bkgLight: #F5E6D0;
+    --textDark: #574D2E;
+    --textLight: #776D4F;
+}
+
+/* .roboto-regular { */
+.defaultText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .roboto-semibold { */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* .fira-code-regular { */
+.accentText {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    color: var(--primaryColor);
+    background-color: transparent;
+    border: 2px solid var(--primaryColor);
+    padding: 10px 15px;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
