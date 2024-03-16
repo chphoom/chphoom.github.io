@@ -37,6 +37,6 @@ ol {
 
 li:before {
     counter-increment: li;
-    content: counter(li, decimal-leading-zero)'. ';
+    content: counter(li, decimal-leading-zero)'.    ';
     color: var(--primaryColor);
 }
