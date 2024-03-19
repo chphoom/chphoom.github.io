@@ -46,16 +46,24 @@ h1,h2 {
     margin: 0px;
 }
 
+h3 {
+    font-size: 34px;
+}
+
+.matchH3 {
+    font-size: 24px;
+}
+
 h1 {
     color: var(--primaryColor);
 }
 
-h2 {
+h2, h3 {
     color: var(--secondaryColor);
 }
 
 /* .fira-code-regular { */
-.accentText {
+.accentText, li:before, ul {
     font-family: "Fira Code", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -76,4 +84,31 @@ button {
 a {
     color: inherit;
     text-decoration: inherit;
+}
+
+.page-container {
+    margin-left: 16%;
+    margin-right: 16%;
+    gap: 200px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.textbox {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 55%;
+}
+
+
+.divider {
+    background-color: var(--textLight);
+    height: 1px;
+    width: 30%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+ul {
+    list-style-type: circle;
 }
