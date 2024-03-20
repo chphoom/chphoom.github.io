@@ -1,0 +1,29 @@
+.content-container, .header-container, .list-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-container {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.margins {
+    margin-right: 10%;
+    margin-left: 15%;
+}
+
+.tabcontent {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 15px;
+}
+h4.darkText{
+    margin-right: 6px;
+}
+
+li::marker {
+    color: var(--primaryColor);
+}
