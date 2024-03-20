@@ -109,126 +109,21 @@ export class ProjectService {
       year: 2018,
       employer: "Bull City Botics"
     },
-    {
-      title: "test",
-      details: "test",
-      skills: [
-        "test",
-        "test",
-        "test"
-      ],
-      github: "https://github.com/chphoom/",
-      website: undefined,
-      img: undefined,
-      featured: false,
-      year: 2018,
-      employer: undefined
-    },
-    {
-      title: "test",
-      details: "test",
-      skills: [
-        "test",
-        "test",
-        "test"
-      ],
-      github: "https://github.com/chphoom/",
-      website: undefined,
-      img: undefined,
-      featured: false,
-      year: 2018,
-      employer: undefined
-    },
-    {
-      title: "test",
-      details: "test",
-      skills: [
-        "test",
-        "test",
-        "test"
-      ],
-      github: "https://github.com/chphoom/",
-      website: undefined,
-      img: undefined,
-      featured: false,
-      year: 2018,
-      employer: undefined
-    },
-    {
-      title: "test",
-      details: "test",
-      skills: [
-        "test",
-        "test",
-        "test"
-      ],
-      github: "https://github.com/chphoom/",
-      website: undefined,
-      img: undefined,
-      featured: false,
-      year: 2018,
-      employer: undefined
-    },
-    {
-      title: "test",
-      details: "test",
-      skills: [
-        "test",
-        "test",
-        "test"
-      ],
-      github: "https://github.com/chphoom/",
-      website: undefined,
-      img: undefined,
-      featured: false,
-      year: 2018,
-      employer: undefined
-    },
-    {
-      title: "test",
-      details: "test",
-      skills: [
-        "test",
-        "test",
-        "test"
-      ],
-      github: "https://github.com/chphoom/",
-      website: undefined,
-      img: undefined,
-      featured: false,
-      year: 2018,
-      employer: undefined
-    },
-    {
-      title: "test",
-      details: "test",
-      skills: [
-        "test",
-        "test",
-        "test"
-      ],
-      github: "https://github.com/chphoom/",
-      website: undefined,
-      img: undefined,
-      featured: false,
-      year: 2018,
-      employer: undefined
-    },
-    {
-      title: "test",
-      details: "test",
-      skills: [
-        "test",
-        "test",
-        "test"
-      ],
-      github: "https://github.com/chphoom/",
-      website: undefined,
-      img: undefined,
-      featured: false,
-      year: 2018,
-      employer: undefined
-    },
+    // {
+    //   title: "test",
+    //   details: "test",
+    //   skills: [
+    //     "test",
+    //     "test",
+    //     "test"
+    //   ],
+    //   github: "https://github.com/chphoom/",
+    //   website: undefined,
+    //   img: undefined,
+    //   featured: false,
+    //   year: 2018,
+    //   employer: undefined
+    // },
   ]
 
   constructor() { }
