@@ -10,6 +10,8 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
+import { ArchiveComponent } from './archive/archive.component';
+import { OtherProjectsComponent } from './other-projects/other-projects.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MainComponent } from './main/main.component';
     ExperienceComponent,
     ProjectsComponent,
     ContactComponent,
-    MainComponent
+    MainComponent,
+    ArchiveComponent,
+    OtherProjectsComponent
   ],
   imports: [
     BrowserModule,
