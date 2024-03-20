@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  public email: string;
+  public github: string;
+  public linkedin: string;
+
+  constructor(private data: DataService) {
+    this.email = data.getEmail()
+    this.github = data.getGithub()
+    this.linkedin = data.getLinkedIn()
+  }
 }

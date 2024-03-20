@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ProjectService } from '../project.service';
+import { Project } from '../models';
 
 @Component({
   selector: 'app-archive',
@@ -7,11 +8,10 @@ import { ProjectService } from '../project.service';
   styleUrl: './archive.component.css'
 })
 export class ArchiveComponent {
-  public test: string[];
+  public archive: Project[];
 
   constructor(private data: ProjectService) {
-    this.test = data.getSkills()
-    console.log(this.test)
+    this.archive = data.getArchive()
   }
 
 }

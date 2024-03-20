@@ -1,37 +1,3 @@
-.sidebarR,
-.sidebarL {
-    width: 10%;
-    position: fixed;
-    z-index: 1;
-    /* Stay on top */
-    bottom: 0;
-    /* Stay at the bottom */
-}
-
-.sidebarL {
-    left: 0;
-}
-
-.sidebarR,
-p.line {
-    right: 0;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    font-size: 24px;
-}
-
-.sidebarR {
-    margin-right: 2%;
-}
-
-.iconlist {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-
 .main {
     padding-bottom: 10%;
     display: flex;

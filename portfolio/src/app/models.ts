@@ -28,4 +28,5 @@ export interface Project {
     img: string | undefined
     featured: boolean
     year: number
+    employer: string | undefined
 }
