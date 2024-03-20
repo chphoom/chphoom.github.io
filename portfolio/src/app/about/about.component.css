@@ -22,3 +22,7 @@ h3 {
 .textbox {
     margin-top: 0;
 }
+
+ul {
+    columns: 3 auto;
+}

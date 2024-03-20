@@ -11,18 +11,10 @@
             </p>
             <div class="list-container">
                 <ul>
-                    <li>A</li>
-                    <li>A</li>
-                    <li>A</li>
-                    <li>A</li>
-                    <li>A</li>
-                </ul>
-                <ul>
-                    <li>A</li>
-                    <li>A</li>
-                    <li>A</li>
-                    <li>A</li>
-                    <li>A</li>
+                    <ng-container *ngFor="let skill of skills; let i=index">
+                        <li *ngIf="i<10">{{skill}}</li>
+                    </ng-container>
+
                 </ul>
             </div>
         </div>

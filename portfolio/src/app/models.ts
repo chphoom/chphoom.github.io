@@ -25,4 +25,7 @@ export interface Project {
     skills: string[]
     github: string
     website: string | undefined
+    img: string | undefined
+    featured: boolean
+    year: number
 }

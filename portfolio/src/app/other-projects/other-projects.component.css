@@ -1,0 +1,72 @@
+.content-container,
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-container {
+    margin-top: 3em;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+h3,
+p.subheader {
+    margin-bottom: 0.5em;
+}
+
+p.subheader {
+    margin-top: 0;
+}
+
+h4 {
+    color: var(--secondaryColor);
+    font-size: 20px;
+}
+
+.gridcard {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bkgMid);
+    padding: 2em;
+    text-align: start;
+}
+
+.iconbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.tags-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.tag {
+    margin: 0;
+    font-size: 14px;
+}
+
+button,
+button:hover {
+    margin: 5em;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+a#link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--primaryColor);
+}
