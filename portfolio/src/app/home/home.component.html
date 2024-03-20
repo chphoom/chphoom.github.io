@@ -11,14 +11,11 @@
     </h2>
     <!-- TODO: make bio text an easier to change variable -->
     <div class="textbox darkText">
-        <p class="defaultText">
-            {{ p1 }}
-        </p>
-        <p class="defaultText">
-            {{ p2 }}
+        <p class="defaultText" *ngFor="let p of text">
+            {{ p }}
         </p>
     </div>
-    <button class="defaultText">
+    <button class="defaultText reg">
         <!-- TODO: make email an easier to change variable -->
         <a href="mailto:{{email}}">Contact Me</a>
     </button>

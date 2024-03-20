@@ -8,15 +8,12 @@ import { DataService } from '../data.service';
 })
 export class HomeComponent {
   public name: string;
-  public p1: string;
-  public p2: string;
+  public text: string[];
   public email: string;
 
   constructor(private data: DataService){
     this.name = data.getName()
-    let bio = data.getBio()
-    this.p1 = bio[0]
-    this.p2 = bio[1]
+    this.text = data.getBio()
     this.email = data.getEmail()
   }
 }

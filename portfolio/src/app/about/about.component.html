@@ -6,11 +6,8 @@
     </div>
     <div class="content-container">
         <div class="textbox">
-            <p class="defaultText">
-                {{ p1 }}
-            </p>
-            <p class="defaultText">
-                {{ p2 }}
+            <p class="defaultText" *ngFor="let p of text">
+                {{ p }}
             </p>
             <div class="list-container">
                 <ul>
