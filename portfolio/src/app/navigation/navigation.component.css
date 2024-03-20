@@ -23,9 +23,15 @@ nav {
     margin-left: 3%;
 }
 
-button {
+button,
+button:hover {
     margin-left: 25px;
     margin-right: 3%;
+}
+
+button:hover {
+    background-color: var(--textDark);
+
 }
 
 ol {
@@ -39,6 +45,6 @@ li:before {
     color: var(--primaryColor);
 }
 
-li > a {
+li>a {
     margin-right: 1em;
 }
