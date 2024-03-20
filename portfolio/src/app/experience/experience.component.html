@@ -1,1 +1,27 @@
-<p>experience works!</p>
+<div class="page-container">
+    <div class="margins">
+        <div class="header-container">
+            <p class="accentText matchH3">02.</p>
+            <h3>Where I've Worked</h3>
+            <div class="divider"></div>
+        </div>
+        <div class="content-container">
+            <div class="tabs">
+                <button [ngClass]="{tabActive: selected === e, tabs: selected !== e}" *ngFor="let e of experiences"
+                    (click)="onClick(e)">
+                    {{e.employer}}
+                </button>
+            </div>
+            <div class="tabcontent">
+                <div class="header-container">
+                    <h4 class="darkText">{{selected.position}} </h4>
+                    <h4 class="reg"> &#64; {{selected.employer}}</h4>
+                </div>
+
+                <p class="accentTextDark">{{selected.start}} -- {{selected.end}}</p>
+                <ul>
+                    <li class="darkText" *ngFor="let b of selected.details">{{b}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>

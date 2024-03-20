@@ -54,11 +54,17 @@ h3 {
     font-size: 24px;
 }
 
+h4 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
 h1 {
     color: var(--primaryColor);
 }
 
-h2, h3 {
+h2, h3, h4.reg {
     color: var(--secondaryColor);
 }
 
@@ -71,12 +77,56 @@ h2, h3 {
     color: var(--primaryColor);
 }
 
-button {
+.accentTextDark {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--textDark);
+}
+
+button.reg {
     color: var(--primaryColor);
     background-color: transparent;
     border: 2px solid var(--primaryColor);
     padding: 10px 15px;
     border-radius: 6%;
+    text-align: center;
+    font-size: 16px;
+}
+
+button.tabs {
+    color: var(--textLight);
+    background-color: transparent;
+    border-width: 0;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: var(--textLight);
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button.tabs:hover {
+    color: var(--textLight);
+    background-color: var(--bkgMid);
+    border-width: 0;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: var(--textLight);
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button.tabActive {
+    color: var(--primaryColor);
+    background-color: var(--bkgMid);
+    border-width: 0;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: var(--primaryColor);
+    padding: 10px 15px;
     text-align: center;
     font-size: 16px;
 }
@@ -111,4 +161,9 @@ a {
 
 ul {
     list-style-type: circle;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
