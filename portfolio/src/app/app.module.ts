@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
 import { ArchiveComponent } from './archive/archive.component';
 import { OtherProjectsComponent } from './other-projects/other-projects.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { OtherProjectsComponent } from './other-projects/other-projects.componen
     ContactComponent,
     MainComponent,
     ArchiveComponent,
-    OtherProjectsComponent
+    OtherProjectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
