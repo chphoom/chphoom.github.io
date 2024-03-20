@@ -1,0 +1,67 @@
+.page-container {
+    margin-top: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: var(--bkgLight);
+}
+
+.header-container {
+    margin-left: 1em;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.sub {
+    color: var(--bkgDark);
+    opacity: 0.75;
+
+}
+
+h4.reg {
+    color: var(--secondaryColor);
+
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 5em;
+}
+
+.tags-container {
+    flex-direction: row;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.tag {
+    margin: 0;
+    font-size: 14px;
+}
+
+.iconbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#github {
+    margin-right: 1em;
+}
+
+tr.element:hover {
+    background-color: var(--bkgMid);
+}
+
+th {
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding: 1em;
+}

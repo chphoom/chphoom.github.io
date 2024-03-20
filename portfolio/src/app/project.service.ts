@@ -22,6 +22,7 @@ export class ProjectService {
       img: "string",
       featured: true,
       year: 2023,
+      employer: "WillowTree"
     },
     {
       title: "Around the Block",
@@ -39,7 +40,8 @@ export class ProjectService {
       website: "https://aroundtheblock.apps.cloudapps.unc.edu/",
       img: "string",
       featured: true,
-      year: 2023
+      year: 2023,
+      employer: "UNC Chapel Hill"
     },
     {
       title: "SpareSpace",
@@ -55,7 +57,8 @@ export class ProjectService {
       website: "https://devpost.com/software/sparespace-mo3qru",
       img: "string",
       featured: true,
-      year: 2023
+      year: 2023,
+      employer: "PearlHacks"
     },
     {
       title: "Coursera: HTML, CSS and Javascript for Web Developers",
@@ -70,7 +73,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2022
+      year: 2022,
+      employer: undefined
     },
     {
       title: "CSXL Forum System Prototype",
@@ -86,7 +90,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2023
+      year: 2023,
+      employer: "UNC Chapel Hill"
     },
     {
       title: "Memorial Board",
@@ -101,7 +106,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: "Bull City Botics"
     },
     {
       title: "test",
@@ -115,7 +121,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: undefined
     },
     {
       title: "test",
@@ -129,7 +136,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: undefined
     },
     {
       title: "test",
@@ -143,7 +151,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: undefined
     },
     {
       title: "test",
@@ -157,7 +166,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: undefined
     },
     {
       title: "test",
@@ -171,7 +181,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: undefined
     },
     {
       title: "test",
@@ -185,7 +196,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: undefined
     },
     {
       title: "test",
@@ -199,7 +211,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: undefined
     },
     {
       title: "test",
@@ -213,7 +226,8 @@ export class ProjectService {
       website: undefined,
       img: undefined,
       featured: false,
-      year: 2018
+      year: 2018,
+      employer: undefined
     },
   ]
 
