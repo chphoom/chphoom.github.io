@@ -38,6 +38,8 @@ h3#title {
     width: 60%;
     height: 100%;
     opacity: 0.5;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 
 .imageL:hover, .imageR:hover {
