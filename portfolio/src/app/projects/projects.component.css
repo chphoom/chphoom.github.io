@@ -27,6 +27,7 @@ h3#title {
 .widecard {
     height: fit-content;
     overflow: hidden;
+    display: inline-block;
     position: relative;
     margin-bottom: 1em;
 }

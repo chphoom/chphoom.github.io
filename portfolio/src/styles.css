@@ -175,7 +175,7 @@ a {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-image: url('assets/bullet.png');
 }
 
 li {

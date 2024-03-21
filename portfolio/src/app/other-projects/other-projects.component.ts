@@ -10,10 +10,12 @@ import { Project } from '../models';
 export class OtherProjectsComponent {
   public other: Project[];
   public expanded: boolean;
+  public length: number;
 
   constructor(private data: ProjectService){
     this.other = data.getOtherProjects()
     this.expanded = false
+    this.length = this.other.length
   }
 
   onClick(){
