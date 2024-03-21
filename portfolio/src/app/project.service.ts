@@ -19,7 +19,7 @@ export class ProjectService {
       ],
       github: "https://github.com/StayFull",
       website: "https://www.linkedin.com/feed/update/urn:li:activity:7095927158413344768?utm_source=share&utm_medium=member_desktop",
-      img: "string",
+      img: "assets/stayfull.png",
       featured: true,
       year: 2023,
       employer: "WillowTree"
@@ -38,7 +38,7 @@ export class ProjectService {
       ],
       github: "https://github.com/chphoom/aroundtheblock",
       website: "https://aroundtheblock.apps.cloudapps.unc.edu/",
-      img: "string",
+      img: "assets/aroundtheblock.png",
       featured: true,
       year: 2023,
       employer: "UNC Chapel Hill"
@@ -55,7 +55,7 @@ export class ProjectService {
       ],
       github: "https://github.com/Littlesk/sparespace",
       website: "https://devpost.com/software/sparespace-mo3qru",
-      img: "string",
+      img: "assets/sparespace.png",
       featured: true,
       year: 2023,
       employer: "PearlHacks"
