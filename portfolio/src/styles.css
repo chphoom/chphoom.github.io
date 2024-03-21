@@ -94,6 +94,8 @@ button.reg {
     border-radius: 6%;
     text-align: center;
     font-size: 16px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 
 button.reg:hover {
@@ -116,6 +118,8 @@ button.tabs {
     padding: 10px 15px;
     text-align: center;
     font-size: 16px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 
 button.tabs:hover {
@@ -171,10 +175,15 @@ a {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-image: url('assets/bullet.png');
 }
 
 li {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }

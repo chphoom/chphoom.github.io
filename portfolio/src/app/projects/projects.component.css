@@ -27,6 +27,7 @@ h3#title {
 .widecard {
     height: fit-content;
     overflow: hidden;
+    display: inline-block;
     position: relative;
     margin-bottom: 1em;
 }
@@ -34,13 +35,25 @@ h3#title {
 .imageL,
 .imageR {
     position: absolute;
-    background-color: var(--primaryColor);
     width: 60%;
     height: 100%;
-    opacity: 0.5;
+
 }
 
-.imageL:hover, .imageR:hover {
+.overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--primaryColor);
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.overlay:hover:before {
     opacity: 0;
 }
 

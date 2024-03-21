@@ -7,6 +7,9 @@
     <div class="content-container">
         <div class="widecard" *ngFor="let f of featured; let i=index">
             <div [ngClass]="{imageL: i%2==0, imageR: i%2!=0}">
+                <div class="overlay"> 
+                    <img src="{{f.img}}">
+                </div>
             </div>
             <div [ngClass]="{'widecard-contentR': i%2==0, 'widecard-contentL': i%2!=0}">
                 <p class="accentText">Featured Project</p>

@@ -53,7 +53,7 @@
                 </div>
             </ng-container>
         </div>
-        <button class="reg" (click)="onClick()">
+        <button class="reg" (click)="onClick()" *ngIf="length>6">
             Show More
         </button>
     </div>

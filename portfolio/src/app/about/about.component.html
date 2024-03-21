@@ -12,14 +12,15 @@
             <div class="list-container">
                 <ul>
                     <ng-container *ngFor="let skill of skills; let i=index">
-                        <li *ngIf="i<10">{{skill}}</li>
+                        <li *ngIf="i<9">{{skill}}</li>
                     </ng-container>
-
                 </ul>
             </div>
         </div>
         <div class="img-container">
-            <p>insert image here</p>
+            <div class="overlay"> 
+                <img src="assets/myimage.jpg">
+            </div>
         </div>
     </div>
 </div>

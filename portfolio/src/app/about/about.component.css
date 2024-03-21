@@ -1,11 +1,31 @@
 .img-container {
-    background-color: var(--bkgMid);
     flex: 1;
     /* justify-content: center; */
     margin-left: 5em;
+    position: relative;
 }
 
-.content-container, .header-container, .list-container{
+.overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bkgDark);
+    opacity: 0.5;
+    z-index: 2;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.overlay:hover:before {
+    opacity: 0;
+}
+
+.content-container,
+.header-container,
+.list-container {
     display: flex;
     flex-direction: row;
 }
@@ -17,6 +37,10 @@
 
 h3 {
     margin-left: 15px;
+}
+
+img {
+    z-index: 0;
 }
 
 .textbox {
