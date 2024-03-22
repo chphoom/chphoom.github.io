@@ -9,7 +9,7 @@ import { ContactInfo } from './models';
 // TODO: add image
 export class DataService {
 
-  image: string = "assets/myimage.JPG"
+  image: string = "assets/myimage.jpg"
 
   contacts: ContactInfo = {
     name: "Chalisa Keaw Phoomsakha",
