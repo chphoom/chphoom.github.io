@@ -49,3 +49,12 @@ li:before {
 li>a {
     margin-right: 1em;
 }
+
+a {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+a:hover {
+    color: var(--primaryColor);
+}
