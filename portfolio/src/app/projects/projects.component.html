@@ -14,7 +14,7 @@
             <div [ngClass]="{'widecard-contentR': i%2==0, 'widecard-contentL': i%2!=0}">
                 <p class="accentText">Featured Project</p>
                 <h3 id="title">{{f.title}}</h3>
-                <p class="desc defaultText">{{f.details}}</p>
+                <p class="desc darkText defaultText">{{f.details}}</p>
                 <div class="tags-container">
                     <p class="accentText tag" *ngFor="let skill of f.skills">{{skill}}</p>
                 </div>

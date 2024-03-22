@@ -15,3 +15,12 @@
 a:hover {
     color: var(--primaryColor)
 }
+
+a#link {
+    text-decoration: underline transparent;
+    transition: text-decoration-color 300ms;
+}
+
+a#link:hover {
+    text-decoration-color: var(--primaryColor);
+}

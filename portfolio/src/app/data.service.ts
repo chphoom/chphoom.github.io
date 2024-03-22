@@ -9,6 +9,8 @@ import { ContactInfo } from './models';
 // TODO: add image
 export class DataService {
 
+  image: string = "assets/myimage.JPG"
+
   contacts: ContactInfo = {
     name: "Chalisa Keaw Phoomsakha",
     email: "chphoom@gmail.com",
@@ -67,5 +69,9 @@ export class DataService {
 
   getAboutMe() {
     return this.aboutme
+  }
+
+  getMyImage() {
+    return this.image
   }
 }
