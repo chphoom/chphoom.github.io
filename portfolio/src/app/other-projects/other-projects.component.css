@@ -66,7 +66,11 @@ button:hover {
     padding: 15px 20px;
 }
 
+a#link {
+    text-decoration: underline transparent;
+    transition: text-decoration-color 300ms;
+}
+
 a#link:hover {
-    text-decoration: underline;
     text-decoration-color: var(--primaryColor);
 }

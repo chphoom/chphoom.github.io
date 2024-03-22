@@ -38,7 +38,7 @@
             <th>
                 <div class="iconbar">
                     <!-- Github -->
-                    <a href="{{a.github}}" *ngIf="a.github!==undefined" id="github">
+                    <a class="animate" href="{{a.github}}" *ngIf="a.github!==undefined" id="github">
                         <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#a)">
                                 <path
@@ -53,7 +53,7 @@
                         </svg>
                     </a>
                     <!-- External -->
-                    <a href="{{a.website}}" *ngIf="a.website!==undefined">
+                    <a class="animate" href="{{a.website}}" *ngIf="a.website!==undefined">
                         <svg width="21" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M19.736.292H13.88a.924.924 0 1 0 0 1.848h3.626L8.646 11a.924.924 0 1 0 1.307 1.306l8.86-8.86v3.626a.924.924 0 1 0 1.847 0V1.216a.924.924 0 0 0-.924-.924Z"

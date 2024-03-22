@@ -1,8 +1,10 @@
 .img-container {
-    flex: 1;
     /* justify-content: center; */
+    max-width: 40%;
+    max-height: 40%;
     margin-left: 5em;
     position: relative;
+    overflow: hidden;
 }
 
 .overlay:before {
@@ -13,7 +15,7 @@
     height: 100%;
     width: 100%;
     background-color: var(--bkgDark);
-    opacity: 0.5;
+    opacity: 0.35;
     z-index: 2;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -48,5 +50,5 @@ img {
 }
 
 ul {
-    columns: 3 auto;
+    columns: 2 auto;
 }

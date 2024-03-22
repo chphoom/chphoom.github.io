@@ -49,3 +49,26 @@ li:before {
 li>a {
     margin-right: 1em;
 }
+
+a {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+a:hover {
+    color: var(--primaryColor);
+}
+
+.hover-rotate {
+    overflow: hidden;
+}
+
+.hover-rotate img {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .hover-rotate:hover img {
+    transform: scale(1.3) rotate(360deg);
+  }

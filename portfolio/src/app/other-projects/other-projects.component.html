@@ -18,7 +18,7 @@
                         </svg>
                         <div>
                             <!-- Github -->
-                            <a href="{{o.github}}" *ngIf="o.github!==undefined">
+                            <a class="animate" href="{{o.github}}" *ngIf="o.github!==undefined">
                                 <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#a)">
                                         <path
@@ -33,7 +33,7 @@
                                 </svg>
                             </a>
                             <!-- External -->
-                            <a href="{{o.website}}" *ngIf="o.website!==undefined">
+                            <a class="animate" href="{{o.website}}" *ngIf="o.website!==undefined">
                                 <svg width="21" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M19.736.292H13.88a.924.924 0 1 0 0 1.848h3.626L8.646 11a.924.924 0 1 0 1.307 1.306l8.86-8.86v3.626a.924.924 0 1 0 1.847 0V1.216a.924.924 0 0 0-.924-.924Z"
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <h4>{{o.title}}</h4>
-                    <p class="defaultText">{{o.details}}</p>
+                    <p class="darkText defaultText">{{o.details}}</p>
                     <div class="tags-container">
                         <p class="accentText tag" *ngFor="let skill of o.skills">{{skill}}</p>
                     </div>

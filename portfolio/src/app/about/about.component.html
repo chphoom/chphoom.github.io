@@ -5,21 +5,21 @@
         <div class="divider"></div>
     </div>
     <div class="content-container">
-        <div class="textbox">
+        <div class="textbox darkText">
             <p class="defaultText" *ngFor="let p of text">
                 {{ p }}
             </p>
             <div class="list-container">
                 <ul>
                     <ng-container *ngFor="let skill of skills; let i=index">
-                        <li *ngIf="i<9">{{skill}}</li>
+                        <li *ngIf="i<10">{{skill}}</li>
                     </ng-container>
                 </ul>
             </div>
         </div>
         <div class="img-container">
             <div class="overlay"> 
-                <img src="assets/myimage.jpg">
+                <img src="{{image}}">
             </div>
         </div>
     </div>
