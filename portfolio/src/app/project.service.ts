@@ -109,6 +109,21 @@ export class ProjectService {
       year: 2018,
       employer: "Bull City Botics"
     },
+    {
+      title: "Rock Paper Scissors Bot",
+      details: "A simple bot, the first project in the Freecodecamp Machine Learning with Python Certification.",
+      skills: [
+        "Machine Learning",
+        "AI",
+        "Python"
+      ],
+      github: undefined,
+      website: "https://replit.com/@chphoom/fcc-rock-paper-scissors",
+      img: undefined,
+      featured: false,
+      year: 2023,
+      employer: undefined
+    },
     // {
     //   title: "test",
     //   details: "test",
@@ -128,8 +143,8 @@ export class ProjectService {
 
   constructor() { }
 
-  getArchive(){
-    return this.projects.sort((a,b) => b.year-a.year)
+  getArchive() {
+    return this.projects.sort((a, b) => b.year - a.year)
   }
 
   getFeaturedProjects() {
@@ -137,7 +152,7 @@ export class ProjectService {
   }
 
   getOtherProjects() {
-    return this.projects.filter((p) => p.featured == false)
+    return this.projects.filter((p) => p.featured == false).sort((a, b) => b.year - a.year)
   }
 
   getSkills() {

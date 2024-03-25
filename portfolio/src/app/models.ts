@@ -23,7 +23,7 @@ export interface Project {
     title: string
     details: string
     skills: string[]
-    github: string
+    github: string | undefined
     website: string | undefined
     img: string | undefined
     featured: boolean
