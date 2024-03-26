@@ -34,7 +34,10 @@ export class ProjectService {
         "SQLAlchemy",
         "PostgreSQL",
         "Python",
-        "OpenShift"
+        "OpenShift",
+        "Frontend",
+        "Backend",
+        "Web Development"
       ],
       github: "https://github.com/chphoom/aroundtheblock",
       website: "https://aroundtheblock.apps.cloudapps.unc.edu/",
@@ -49,9 +52,10 @@ export class ProjectService {
       skills: [
         "Angular",
         "Material UI",
-        "Node.js",
+        "NodeJS",
         "Appwrite",
-        "Docker"
+        "Docker",
+        "Frontend"
       ],
       github: "https://github.com/Littlesk/sparespace",
       website: "https://devpost.com/software/sparespace-mo3qru",
@@ -67,14 +71,15 @@ export class ProjectService {
         "HTML",
         "CSS",
         "Javescript",
-        "Web Development"
+        "Web Development",
+        "Frontend"
       ],
       github: "https://github.com/chphoom/fullstack-course4",
       website: undefined,
       img: undefined,
       featured: false,
       year: 2022,
-      employer: undefined
+      employer: "Coursera"
     },
     {
       title: "CSXL Forum System Prototype",
@@ -85,6 +90,12 @@ export class ProjectService {
         "Angular",
         "Web Development",
         "Material UI",
+        "PostgreSQL",
+        "Typescript",
+        "CSS",
+        "HTML",
+        "Frontend",
+        "Backend"
       ],
       github: "https://github.com/comp423-23s/final-project-final-d4",
       website: undefined,
@@ -122,7 +133,87 @@ export class ProjectService {
       img: undefined,
       featured: false,
       year: 2023,
-      employer: undefined
+      employer: "Free Code Camp"
+    },
+    {
+      title: "Simple Web Server",
+      details: "A very simple web server that takes one argument for port and then serves any files inside the public directory. Made as the first assignment in my Modern Web Programming course.",
+      skills: [
+        "HTML",
+        "NodeJS",
+        "Javascript",
+        "Backend"
+      ],
+      github: "https://github.com/comp426-2022-fall/a01-chphoom",
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2022,
+      employer: "UNC Chapel Hill"
+    },
+    {
+      title: "Simple Command Line Utility",
+      details: " A simple installable Node.js command line application package. Made as the second assignment in my Modern Web Programming course.",
+      skills: [
+        "NodeJS",
+        "Javascript",
+        "Backend"
+      ],
+      github: "https://github.com/comp426-2022-fall/a02-chphoom",
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2022,
+      employer: "UNC Chapel Hill"
+    },
+    {
+      title: "Simple Dice Roll Module",
+      details: "A simple installable Node.js module package which containes various functions for similating dice rolls. Made as the third assignment in my Modern Web Programming course.",
+      skills: [
+        "NodeJS",
+        "Javascript",
+        "Backend"
+      ],
+      github: "https://github.com/comp426-2022-fall/a03-chphoom",
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2022,
+      employer: "UNC Chapel Hill"
+    },
+    {
+      title: "Simple Dice Rolling API",
+      details: "A simple web API using a module to similate dice rolls. Made as the fourth assignment in my Modern Web Programming course.",
+      skills: [
+        "NodeJS",
+        "ExpressJS",
+        "Javascript",
+        "Backend"
+      ],
+      github: "https://github.com/comp426-2022-fall/a04-chphoom",
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2022,
+      employer: "UNC Chapel Hill"
+    },
+    {
+      title: "Minigame Arcade",
+      details: "A simple web application that lets people play minigames. Users create an account that gives them access to four minigames: Rock Paper Scissors, Morra, Tic Tac Toe and Magic 8 Ball. Players are also able to see their wins and track their high scores. The final project of my Modern Web Programming Course.",
+      skills: [
+        "NodeJS",
+        "ExpressJS",
+        "Javescript",
+        "Backend",
+        "HTML",
+        "CSS"
+      ],
+      github: "https://github.com/comp426-2022-fall/a99-Team18",
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2022,
+      employer: "UNC Chapel Hill"
     },
     // {
     //   title: "test",
