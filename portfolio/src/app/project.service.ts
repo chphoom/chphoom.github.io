@@ -183,15 +183,17 @@ export class ProjectService {
     },
     {
       title: "Simple Dice Rolling API",
-      details: "A simple web API using a module to similate dice rolls. Made as the fourth assignment in my Modern Web Programming course.",
+      details: "A simple web API using a module to similate dice rolls. Made as the fourth assignment in my Modern Web Programming course. Later I hosted it on an EC2 for practice.",
       skills: [
         "NodeJS",
         "ExpressJS",
         "Javascript",
-        "Backend"
+        "Backend",
+        "AWS",
+        "EC2"
       ],
       github: "https://github.com/comp426-2022-fall/a04-chphoom",
-      website: undefined,
+      website: "http://54.147.33.47:5000/app/roll",
       img: undefined,
       featured: false,
       year: 2022,
