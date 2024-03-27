@@ -217,6 +217,75 @@ export class ProjectService {
       year: 2022,
       employer: "UNC Chapel Hill"
     },
+    {
+      title: "Tar Heel Shell",
+      details: "A simple shell capable of changing directories and executing system programs such as pwd and ls. Created as the final project in my Systems Fundamentals course. Code avalible on request.",
+      skills: [
+        "C"
+      ],
+      github: undefined,
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2021,
+      employer: "UNC Chapel Hill"
+    },
+    {
+      title: "Nonograms",
+      details: "Used the model-view-controller design pattern together with the JavaFX UI library to design a complete, functioning GUI implementation of the single-player logic puzzle nonograms. Created as the final project in my Foundations of Programming course. Code availible upon request.",
+      skills: [
+        "MVC",
+        "Java",
+        "JavaFX",
+        "Maven"
+      ],
+      github: undefined,
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2021,
+      employer: "UNC Chapel Hill"
+    },
+    {
+      title: "Computer Organization Labs",
+      details: "Various simple programs in MIPS Assembly using a MARS compiler created for my Computer Organization course. Code availible upon request.",
+      skills: [
+        "MIPS",
+        "Assembly",
+      ],
+      github: undefined,
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2023,
+      employer: "UNC Chapel Hill"
+    },
+    {
+      title: "Simple 2D Graphics Engine",
+      details: "A very simple 2D Graphics engine written in C++, a culmination of effort spread accross several assignments in my 2D Computer Graphics course. Code availible upon request.",
+      skills: [
+        "C++",
+      ],
+      github: undefined,
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2022,
+      employer: "UNC Chapel Hill"
+    },
+    {
+      title: "Simple Implementation of Various Data Structures",
+      details: "Various assignments in which I implemented data structures such as LinkedList, HashMaps, AVL Trees, etc. during my Data Structures and Analysis course. I would consider this Java practice, code availible on request.",
+      skills: [
+        "Java",
+      ],
+      github: undefined,
+      website: undefined,
+      img: undefined,
+      featured: false,
+      year: 2020,
+      employer: "UNC Chapel Hill"
+    },
     // {
     //   title: "test",
     //   details: "test",
