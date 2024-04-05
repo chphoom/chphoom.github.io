@@ -11,9 +11,22 @@
     margin-top: 3em;
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Med-small devices (tablets, phones, 991px and below) */
+@media only screen and (max-width: 992px) {
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .container-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
 

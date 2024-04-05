@@ -160,12 +160,26 @@ a {
     text-decoration: inherit;
 }
 
-.page-container {
-    margin-left: 16%;
-    margin-right: 16%;
-    gap: 200px;
-    padding-top: 10%;
-    padding-bottom: 1em;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .page-container {
+        margin-left: 16%;
+        margin-right: 16%;
+        gap: 200px;
+        padding-top: 10%;
+        padding-bottom: 1em;
+    }
+}
+
+/* Med-small devices (tablets, phones, 991px and below) */
+@media only screen and (max-width: 992px) {
+    .page-container {
+        margin-left: 6%;
+        margin-right: 6%;
+        gap: 200px;
+        padding-top: 15%;
+        padding-bottom: 1em;
+    }
 }
 
 .textbox {

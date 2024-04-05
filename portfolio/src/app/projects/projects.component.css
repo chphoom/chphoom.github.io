@@ -33,12 +33,58 @@ h3#title {
     margin-bottom: 1em;
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .imageL, .imageR {
+        width: 60%;
+    }
+
+    .overlay:before {
+        background-color: var(--primaryColor);
+        opacity: 0.5;
+    }
+
+    .widecard-contentL {
+        margin-right: 45%;
+    }
+
+    .widecard-contentR {
+        margin-left: 45%;
+    }
+}
+
+/* Med-small devices (tablets, phones, 991px and below) */
+@media only screen and (max-width: 992px) {
+    .imageL, .imageR {
+        width: 100%;
+    }
+
+    .overlay:before {
+        background-color: var(--bkgLight);
+        opacity: 0.8;
+        backdrop-filter: blur(5px); /* Apply the blur effect */
+    }
+
+    .widecard-contentL {
+        margin-left: 2.5%;
+        margin-right: 25%;
+    }
+
+    .widecard-contentR {
+        margin-left: 25%;
+        margin-right: 2.5%;
+    }
+}
+
+
 .imageL,
 .imageR {
     position: absolute;
-    width: 60%;
     height: 100%;
+}
 
+.overlay {
+    position: relative;
 }
 
 .overlay:before {
@@ -46,10 +92,8 @@ h3#title {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--primaryColor);
     height: 100%;
     width: 100%;
-    opacity: 0.5;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
@@ -75,12 +119,10 @@ h3#title {
 
 .widecard-contentL {
     text-align: start;
-    margin-right: 45%;
 }
 
 .widecard-contentR {
     text-align: end;
-    margin-left: 45%;
 }
 
 .tags-container {

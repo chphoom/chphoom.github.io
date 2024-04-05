@@ -4,15 +4,33 @@
             <img src="favicon.ico">
         </a>
     </div>
-    <div class="nav-container">
-        <ol class="nav-items defaultText lighterText">
+    <div class="nav-container navRow">
+        <ol class="nav-items defaultText lighterText navRow">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ol>
     </div>
-    <button class="defaultText reg"> <a
-            href="{{resume}}"
-            target="_blank">Resume</a> </button>
+    <button class="defaultText reg navRow"> <a href="{{resume}}" target="_blank">Resume</a>
+    </button>
+    <div class="menu-toggle sideNav" (click)="onClick()" [class.change]="isOpen">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
 </nav>
+<div *ngIf="isOpen" class="menu-container sideNav" [@slideInOut]>
+    <div class="nav-container">
+        <ol class="nav-items defaultText lighterText">
+            <li><a href="#about" (click)="onClick()"><br>About</a></li>
+            <li><a href="#experience" (click)="onClick()"><br>Experience</a></li>
+            <li><a href="#projects" (click)="onClick()"><br>Projects</a></li>
+            <li><a href="#contact" (click)="onClick()"><br>Contact</a></li>
+        </ol>
+        <button class="defaultText reg"> <a href="{{resume}}" target="_blank">Resume</a>
+        </button>
+    </div>
+</div>
+<div *ngIf="isOpen" class="blur">
+</div>

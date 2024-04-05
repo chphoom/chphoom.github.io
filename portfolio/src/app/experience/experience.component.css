@@ -1,4 +1,6 @@
-.content-container, .header-container, .list-container{
+.content-container,
+.header-container,
+.list-container {
     display: flex;
     flex-direction: row;
 }
@@ -8,9 +10,12 @@
     align-items: center;
 }
 
-.margins {
-    margin-right: 10%;
-    margin-left: 15%;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .margins {
+        margin-right: 10%;
+        margin-left: 15%;
+    }
 }
 
 .tabcontent {
@@ -20,7 +25,8 @@
 h3 {
     margin-left: 15px;
 }
-h4.darkText{
+
+h4.darkText {
     margin-right: 6px;
 }
 
