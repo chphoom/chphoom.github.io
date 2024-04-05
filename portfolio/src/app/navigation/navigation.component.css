@@ -44,8 +44,9 @@ nav {
         align-items: center;
         color: var(--bkgLight);
         position: fixed;
-        top: 8%;
-        z-index: 10;
+        top: 0;
+        padding-top: 8%;
+        z-index: 9;
     }
 
     .nav-container,

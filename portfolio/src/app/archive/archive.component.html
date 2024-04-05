@@ -11,10 +11,10 @@
             <th>
                 <h4 class="sub">Title</h4>
             </th>
-            <th>
+            <th class="tooBig">
                 <h4 class="sub">Made At</h4>
             </th>
-            <th>
+            <th class="tooBig">
                 <h4 class="sub">Built With</h4>
             </th>
             <th>
@@ -26,11 +26,11 @@
             <th>
                 <h4 class="reg">{{a.title}}</h4>
             </th>
-            <th class="defaultText sub">
+            <th class="defaultText sub tooBig">
                 {{a.employer}}
                 <p *ngIf="a.employer===undefined" class="accentText sub">--------</p>
             </th>
-            <th>
+            <th class="tooBig">
                 <div class="tags-container">
                     <p class="accentText tag sub" *ngFor="let skill of a.skills">{{skill}}</p>
                 </div>

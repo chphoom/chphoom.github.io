@@ -141,8 +141,8 @@ button.reg:hover {
     }
 }
 
-/* Small devices (phones, 425px and below) */
-@media only screen and (max-width: 425px) {
+/* Med+Small devices (tablets, phones, 767px and below) */
+@media only screen and (max-width: 767px) {
     button.tabs {
         border-width: 0;
         border-bottom-style: solid;

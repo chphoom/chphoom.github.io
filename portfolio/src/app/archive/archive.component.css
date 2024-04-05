@@ -65,3 +65,10 @@ th {
     padding-inline-end: 0;
     padding: 1em;
 }
+
+/* Med+Small devices (tablets, phones, 767px and below) */
+@media only screen and (max-width: 767px) {
+    .tooBig {
+        display: none;
+    }
+}
