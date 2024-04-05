@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.header-container h3 {
+    white-space: nowrap;
+}
+
 h3#title {
     margin-top: 0.5em;
     margin-bottom: 0;
@@ -35,7 +39,9 @@ h3#title {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .imageL, .imageR {
+
+    .imageL,
+    .imageR {
         width: 60%;
     }
 
@@ -51,18 +57,25 @@ h3#title {
     .widecard-contentR {
         margin-left: 45%;
     }
+
+    .desc {
+        background-color: var(--bkgMid);
+        padding: 2em;
+    }
 }
 
-/* Med-small devices (tablets, phones, 991px and below) */
-@media only screen and (max-width: 992px) {
-    .imageL, .imageR {
+/* Med devices (tablets, 991px - 768px) */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .imageL,
+    .imageR {
         width: 100%;
     }
 
     .overlay:before {
         background-color: var(--bkgLight);
         opacity: 0.8;
-        backdrop-filter: blur(5px); /* Apply the blur effect */
+        backdrop-filter: blur(5px);
+        /* Apply the blur effect */
     }
 
     .widecard-contentL {
@@ -73,6 +86,36 @@ h3#title {
     .widecard-contentR {
         margin-left: 25%;
         margin-right: 2.5%;
+    }
+
+    .desc {
+        background-color: var(--bkgMid);
+        padding: 2em;
+    }
+}
+
+/* Small devices (phones, 767px and below) */
+@media only screen and (max-width: 767px) {
+    .imageL,
+    .imageR {
+        width: 100%;
+    }
+
+    .overlay:before {
+        background-color: var(--bkgLight);
+        opacity: 0.8;
+        backdrop-filter: blur(5px);
+        /* Apply the blur effect */
+    }
+
+    .widecard-contentL,
+    .widecard-contentR {
+        margin: 0;
+        padding: 2em;
+    }
+
+    .desc {
+        background-color: none;
     }
 }
 
@@ -131,11 +174,6 @@ h3#title {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 1em;
-}
-
-.desc {
-    background-color: var(--bkgMid);
-    padding: 2em;
 }
 
 .tag {

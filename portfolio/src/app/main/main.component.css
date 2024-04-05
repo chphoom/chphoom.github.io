@@ -6,4 +6,5 @@
     align-items: center;
     gap: 200px;
     background-color: var(--bkgLight);
+    width: 100%;
 }

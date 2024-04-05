@@ -25,6 +25,13 @@
     }
 }
 
+/* Small devices (phones, 767px and below) */
+@media only screen and (max-width: 767px) {
+    .container-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .container-grid {
     display: grid;
     grid-gap: 10px;
