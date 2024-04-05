@@ -24,3 +24,21 @@ a#link {
 a#link:hover {
     text-decoration-color: var(--primaryColor);
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .iconlist {
+        display: none;
+    }
+}
+
+/* Med-small devices (tablets, phones, 991px and below) */
+@media only screen and (max-width: 992px) {
+    .iconlist {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}

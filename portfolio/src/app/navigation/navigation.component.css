@@ -11,13 +11,95 @@ nav {
     z-index: 10;
 }
 
-.nav-container,
-.nav-items {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .sideNav {
+        display: none !important;
+    }
+
+    .nav-container,
+    .nav-items {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+/* Med-small devices (tablets, phones, 991px and below) */
+@media only screen and (max-width: 992px) {
+    .navRow {
+        display: none !important;
+    }
+
+    .menu-container {
+        background-color: var(--bkgDark);
+        right: 0;
+        width: 55%;
+        height: -webkit-fill-available;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--bkgLight);
+        position: fixed;
+        top: 0;
+        padding-top: 8%;
+        z-index: 9;
+    }
+
+    .nav-container,
+    .nav-items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    button {
+        margin-top: 10%;
+        margin-bottom: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .menu-toggle {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: var(--primaryColor);
+        margin: 5px 20px;
+        transition: 0.4s;
+    }
+
+    .change .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-1px, 7px);
+    }
+
+    .change .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .change .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-4px, -10px);
+    }
+
+    .blur {
+        backdrop-filter: blur(5px); /* Apply the blur effect */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        z-index: 5;
+        position: fixed;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+    }
 }
 
 .home {
@@ -38,6 +120,7 @@ button:hover {
 ol {
     list-style-type: none;
     counter-reset: li;
+    text-align: center;
 }
 
 li:before {
@@ -67,8 +150,8 @@ a:hover {
     transition: all 0.3s;
     box-sizing: border-box;
     max-width: 100%;
-  }
-  
-  .hover-rotate:hover img {
+}
+
+.hover-rotate:hover img {
     transform: scale(1.3) rotate(360deg);
-  }
+}

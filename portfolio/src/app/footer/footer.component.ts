@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  public github: string;
+  public linkedin: string;
 
+  constructor(private data: DataService) {
+    this.github = data.getGithub()
+    this.linkedin = data.getLinkedIn()
+  }
 }

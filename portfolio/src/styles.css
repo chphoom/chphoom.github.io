@@ -117,13 +117,57 @@ button.reg:hover {
     font-size: 16px;
 }
 
+/* Large+Med devices (laptops/desktops, tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    button.tabs {
+        border-width: 0;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-left-color: var(--textLight);
+    }
+
+    button.tabs:hover {
+        border-width: 0;
+        border-left-style: solid;
+        border-left-width: 4px;
+        border-left-color: var(--textLight);
+    }
+
+    button.tabActive {
+        border-width: 0;
+        border-left-style: solid;
+        border-left-width: 4px;
+        border-left-color: var(--primaryColor);
+    }
+}
+
+/* Med+Small devices (tablets, phones, 767px and below) */
+@media only screen and (max-width: 767px) {
+    button.tabs {
+        border-width: 0;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: var(--textLight);
+    }
+
+    button.tabs:hover {
+        border-width: 0;
+        border-bottom-style: solid;
+        border-bottom-width: 4px;
+        border-bottom-color: var(--textLight);
+    }
+
+    button.tabActive {
+        border-width: 0;
+        border-bottom-style: solid;
+        border-bottom-width: 4px;
+        border-bottom-color: var(--primaryColor);
+    }
+}
+
 button.tabs {
     color: var(--textLight);
     background-color: transparent;
-    border-width: 0;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-left-color: var(--textLight);
     padding: 10px 15px;
     text-align: center;
     font-size: 16px;
@@ -134,10 +178,6 @@ button.tabs {
 button.tabs:hover {
     color: var(--textLight);
     background-color: var(--bkgMid);
-    border-width: 0;
-    border-left-style: solid;
-    border-left-width: 4px;
-    border-left-color: var(--textLight);
     padding: 10px 15px;
     text-align: center;
     font-size: 16px;
@@ -146,10 +186,6 @@ button.tabs:hover {
 button.tabActive {
     color: var(--primaryColor);
     background-color: var(--bkgMid);
-    border-width: 0;
-    border-left-style: solid;
-    border-left-width: 4px;
-    border-left-color: var(--primaryColor);
     padding: 10px 15px;
     text-align: center;
     font-size: 16px;
@@ -160,18 +196,40 @@ a {
     text-decoration: inherit;
 }
 
-.page-container {
-    margin-left: 16%;
-    margin-right: 16%;
-    gap: 200px;
-    padding-top: 10%;
-    padding-bottom: 1em;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .page-container {
+        margin-left: 16%;
+        margin-right: 16%;
+        gap: 200px;
+        padding-top: 10%;
+        padding-bottom: 1em;
+    }
+
+    .textbox {
+        width: 55%;
+    }
 }
+
+/* Med-small devices (tablets, phones, 991px and below) */
+@media only screen and (max-width: 991px) {
+    .page-container {
+        margin-left: 6%;
+        margin-right: 6%;
+        gap: 200px;
+        padding-top: 15%;
+        padding-bottom: 1em;
+    }
+
+    .textbox {
+        width: 100%;
+    }
+}
+
 
 .textbox {
     margin-top: 5%;
     margin-bottom: 3%;
-    width: 55%;
 }
 
 
