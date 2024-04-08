@@ -1,2 +1,2 @@
 # ignore generated folder for ease, force add (git add -f docs) to publish
-docs/
+docs/*
