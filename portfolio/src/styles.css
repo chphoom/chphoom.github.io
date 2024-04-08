@@ -222,8 +222,7 @@ a {
         gap: 200px;
         padding-top: 15%;
         padding-bottom: 1em;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
+        overflow-wrap: anywhere;
     }
 
     .textbox {
