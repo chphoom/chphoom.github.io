@@ -3,7 +3,7 @@
     .sidebarR,
     .sidebarL {
         width: 10%;
-        position: fixed;
+        position: absolute;
         z-index: 1;
         /* Stay on top */
         bottom: 0;

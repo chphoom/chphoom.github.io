@@ -21,7 +21,7 @@
 }
 
 .header-container h3 {
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 h3#title {

@@ -45,7 +45,7 @@
 
 h3 {
     margin-left: 15px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 h4 {

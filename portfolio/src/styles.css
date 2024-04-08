@@ -204,6 +204,9 @@ a {
         gap: 200px;
         padding-top: 10%;
         padding-bottom: 1em;
+        overflow: hidden;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .textbox {
@@ -219,6 +222,8 @@ a {
         gap: 200px;
         padding-top: 15%;
         padding-bottom: 1em;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .textbox {
@@ -231,7 +236,12 @@ a {
     margin-top: 5%;
     margin-bottom: 3%;
 }
-
+/* Small devices (phones, 425px and below) */
+@media only screen and (max-width: 425px) {
+    .divider {
+        display: none;
+    }
+}
 
 .divider {
     background-color: var(--textLight);
