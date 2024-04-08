@@ -272,3 +272,7 @@ a.animate {
 a.animate:hover {
     transform: scale(1.3);
 }
+
+body {
+    margin: 0;
+}
