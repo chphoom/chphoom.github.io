@@ -20,10 +20,6 @@
     justify-content: center;
 }
 
-.header-container h3 {
-    white-space: nowrap;
-}
-
 h3#title {
     margin-top: 0.5em;
     margin-bottom: 0;
