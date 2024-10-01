@@ -169,20 +169,6 @@ h3#title {
 .imageR .overlay:hover img:last-child {
     opacity: 0;
 }
-/* .overlay:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-}
-
-.overlay:hover:before {
-    opacity: 0;
-} */
 
 .imageL {
     left: 0;
