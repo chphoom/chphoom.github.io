@@ -4,6 +4,27 @@ button,button:hover {
     padding: 15px 20px;
 }
 
+button {
+    color: var(--sunsetBlue);
+    border: 2px solid var(--sunsetBlue);
+
+}
+
+
+button:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+
+}
+
+h2 {
+    color: transparent;
+    /* No fill */
+    -webkit-text-stroke: 1px white;
+    /* Outline with stroke width and color */
+}
+
 /* .page-container {
     text-wrap: wrap;
 } */

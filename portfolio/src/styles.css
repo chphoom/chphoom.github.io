@@ -74,13 +74,26 @@ h4 {
 }
 
 h1 {
-    color: var(--primaryColor);
+    color: transparent; /* No fill */
+    -webkit-text-stroke: 2px white; /* Outline with stroke width and color */
+    /* For browsers that don't support text-stroke (fallback) */
+    /* text-shadow:
+      -2px -2px 0 white,  
+      2px -2px 0 white,
+      -2px 2px 0 white,
+      2px 2px 0 white; */
+}
+
+h3 {
+    color: transparent;
+    /* No fill */
+    -webkit-text-stroke: 1px white;
+    /* Outline with stroke width and color */
 }
 
 h2,
-h3,
 h4.reg {
-    color: var(--secondaryColor);
+    color: white;
 }
 
 /* .fira-code-regular { */
@@ -91,7 +104,7 @@ ul {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: var(--primaryColor);
+    color: var(--sunsetYellow);
 }
 
 .accentTextDark {
@@ -99,7 +112,7 @@ ul {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: var(--textDark);
+    color: var(--sunsetBlue);
 }
 
 button.reg {
@@ -115,9 +128,9 @@ button.reg {
 }
 
 button.reg:hover {
-    color: var(--sunsetYellow);
-    /* background-color: var(--sunsetBlue); */
-    border: 2px solid var(--sunsetYellow);
+    color: transparent;
+    background-color: var(--sunsetYellow);
+    border: 2px solid transparent;
     padding: 10px 15px;
     border-radius: 6%;
     text-align: center;
