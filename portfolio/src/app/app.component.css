@@ -42,3 +42,8 @@
         display: none;
     }
 }
+
+.line.accentText,
+.sidebarR.accentText {
+    color: white;
+}

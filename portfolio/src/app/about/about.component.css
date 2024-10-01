@@ -3,12 +3,19 @@
     .content-container {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     .img-container {
         margin-left: 5em;
         max-width: 40%;
         max-height: 40%;
+        border-radius: 25vw 25vw 0vw 0vw;
+    }
+    .overlay {
+        position: relative;
+        width: 26vw;
+        height: 40vw;
     }
 }
 
@@ -27,6 +34,12 @@
     .img-container {
         max-width: 75%;
         max-height: 10%;
+        border-radius: 35vw 35vw 0vw 0vw;
+    }
+    .overlay {
+        position: relative;
+        width: 46vh;
+        height: 70vh;
     }
 }
 
@@ -40,28 +53,23 @@ ul {
     overflow: hidden;
 }
 
-.overlay {
-    position: relative;
-}
 
-.overlay:before {
-    content: "";
+
+.img-container .overlay img {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
-    background-color: var(--bkgDark);
-    opacity: 0.35;
-    z-index: 2;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+    height: 100%;
+    image-rendering: pixelated;
 }
 
-.overlay:hover:before {
+.img-container .overlay img:last-child {
+    transition: 1s;
+}
+.img-container .overlay:hover img:last-child {
     opacity: 0;
 }
-
 
 
 .header-container,
@@ -86,4 +94,8 @@ img {
 
 .textbox {
     margin-top: 0;
+}
+
+ul {
+    color: white;
 }

@@ -1,13 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --primaryColor: #619257;
-    --secondaryColor: #886FA4;
-    --accentColor: #CFC3AA;
-    --bkgDark: #4A3824;
-    --bkgMid: #E8D5BA;
-    --bkgLight: #F5E6D0;
-    --textDark: #574D2E;
-    --textLight: #776D4F;
+    --sunsetYellow: #FAAA39;
+    --sunsetOrange: #F76f25;
+    --sunsetPink: #db5a54;
+    --sunsetRed: #a63845;
+    --sunsetMagenta: #73304c;
+    --sunsetPurple: #3f1A47;
+    --sunsetBlue: #0b0543;
 }
 
 /* .roboto-regular { */
@@ -22,15 +21,15 @@ p.defaultText {
 }
 
 .darkText {
-    color: var(--textDark);
+    color: var(--sunsetBlue);
 }
 
 .lightText {
-    color: var(--textLight);
+    color: var(--sunsetYellow);
 }
 
 .lighterText {
-    color: var(--bkgLight);
+    color: white;
 }
 
 /* .roboto-semibold { */
@@ -55,9 +54,14 @@ h3 {
     font-size: 34px;
 }
 
-.matchH3 {
+.accentH3 {
     font-size: 24px;
     margin-right: 15px;
+    color: white;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h4 {
@@ -67,13 +71,26 @@ h4 {
 }
 
 h1 {
-    color: var(--primaryColor);
+    color: transparent; /* No fill */
+    -webkit-text-stroke: 2px white; /* Outline with stroke width and color */
+    /* For browsers that don't support text-stroke (fallback) */
+    /* text-shadow:
+      -2px -2px 0 white,  
+      2px -2px 0 white,
+      -2px 2px 0 white,
+      2px 2px 0 white; */
+}
+
+h3 {
+    color: transparent;
+    /* No fill */
+    -webkit-text-stroke: 1px white;
+    /* Outline with stroke width and color */
 }
 
 h2,
-h3,
 h4.reg {
-    color: var(--secondaryColor);
+    color: white;
 }
 
 /* .fira-code-regular { */
@@ -84,7 +101,7 @@ ul {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: var(--primaryColor);
+    color: var(--sunsetYellow);
 }
 
 .accentTextDark {
@@ -92,13 +109,13 @@ ul {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: var(--textDark);
+    color: var(--sunsetBlue);
 }
 
 button.reg {
-    color: var(--primaryColor);
+    color: var(--sunsetYellow);
     background-color: transparent;
-    border: 2px solid var(--primaryColor);
+    border: 2px solid var(--sunsetYellow);
     padding: 10px 15px;
     border-radius: 6%;
     text-align: center;
@@ -108,9 +125,9 @@ button.reg {
 }
 
 button.reg:hover {
-    color: var(--primaryColor);
-    background-color: var(--bkgMid);
-    border: 2px solid var(--primaryColor);
+    color: transparent;
+    background-color: var(--sunsetYellow);
+    border: 2px solid transparent;
     padding: 10px 15px;
     border-radius: 6%;
     text-align: center;
@@ -123,21 +140,21 @@ button.reg:hover {
         border-width: 0;
         border-left-style: solid;
         border-left-width: 2px;
-        border-left-color: var(--textLight);
+        border-left-color: white;
     }
 
     button.tabs:hover {
         border-width: 0;
         border-left-style: solid;
         border-left-width: 4px;
-        border-left-color: var(--textLight);
+        border-left-color: white;
     }
 
     button.tabActive {
         border-width: 0;
         border-left-style: solid;
         border-left-width: 4px;
-        border-left-color: var(--primaryColor);
+        border-left-color: white;
     }
 }
 
@@ -147,26 +164,26 @@ button.reg:hover {
         border-width: 0;
         border-bottom-style: solid;
         border-bottom-width: 2px;
-        border-bottom-color: var(--textLight);
+        border-bottom-color: white;
     }
 
     button.tabs:hover {
         border-width: 0;
         border-bottom-style: solid;
         border-bottom-width: 4px;
-        border-bottom-color: var(--textLight);
+        border-bottom-color: white;
     }
 
     button.tabActive {
         border-width: 0;
         border-bottom-style: solid;
         border-bottom-width: 4px;
-        border-bottom-color: var(--primaryColor);
+        border-bottom-color: white;
     }
 }
 
 button.tabs {
-    color: var(--textLight);
+    color: white;
     background-color: transparent;
     padding: 10px 15px;
     text-align: center;
@@ -176,16 +193,17 @@ button.tabs {
 }
 
 button.tabs:hover {
-    color: var(--textLight);
-    background-color: var(--bkgMid);
+    color: white;
+    /* this shade is a transparent version of sunset magenta */
+    background-color: rgba(115, 48, 76, 0.5);
     padding: 10px 15px;
     text-align: center;
     font-size: 16px;
 }
 
 button.tabActive {
-    color: var(--primaryColor);
-    background-color: var(--bkgMid);
+    color: white;
+    background-color: rgba(115, 48, 76, 0.5);
     padding: 10px 15px;
     text-align: center;
     font-size: 16px;
@@ -243,7 +261,7 @@ a {
 }
 
 .divider {
-    background-color: var(--textLight);
+    background-color: white;
     height: 1px;
     width: 30%;
     margin-left: 2em;

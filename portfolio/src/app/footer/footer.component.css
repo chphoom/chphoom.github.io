@@ -6,14 +6,15 @@
     margin: 0;
 }
 
-.defaultText{
+p.defaultText{
     opacity: 0.5;
     font-size: 14px;
     margin: 0;
+    color: var(--sunsetOrange);
 }
 
 a:hover {
-    color: var(--primaryColor)
+    color: white
 }
 
 a#link {
@@ -22,7 +23,7 @@ a#link {
 }
 
 a#link:hover {
-    text-decoration-color: var(--primaryColor);
+    text-decoration-color: var(--sunsetOrange);
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

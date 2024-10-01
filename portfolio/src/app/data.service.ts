@@ -10,6 +10,7 @@ import { ContactInfo } from './models';
 export class DataService {
 
   image: string = "assets/myimage.jpg"
+  image2: string = "assets/myimage2.jpg"
 
   contacts: ContactInfo = {
     name: "Chalisa Keaw Phoomsakha",
@@ -73,5 +74,9 @@ export class DataService {
 
   getMyImage() {
     return this.image
+  }
+  
+  getMyImage2() {
+    return this.image2
   }
 }
