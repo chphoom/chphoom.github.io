@@ -62,9 +62,14 @@ h3 {
     font-size: 34px;
 }
 
-.matchH3 {
+.accentH3 {
     font-size: 24px;
     margin-right: 15px;
+    color: white;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h4 {
@@ -263,7 +268,7 @@ a {
 }
 
 .divider {
-    background-color: var(--textLight);
+    background-color: white;
     height: 1px;
     width: 30%;
     margin-left: 2em;

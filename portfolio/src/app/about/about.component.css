@@ -3,12 +3,14 @@
     .content-container {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     .img-container {
         margin-left: 5em;
         max-width: 40%;
         max-height: 40%;
+        border-radius: 50% 50% 0% 0%;
     }
 }
 
@@ -27,6 +29,7 @@
     .img-container {
         max-width: 75%;
         max-height: 10%;
+        border-radius: 50% 50% 0% 0%;
     }
 }
 
@@ -86,4 +89,8 @@ img {
 
 .textbox {
     margin-top: 0;
+}
+
+ul {
+    color: white;
 }
