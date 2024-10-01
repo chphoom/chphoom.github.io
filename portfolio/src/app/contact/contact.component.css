@@ -1,3 +1,7 @@
+.page-container {
+    position: relative;
+    overflow: visible;
+}
 .content {
     margin-right: 20%;
     margin-left: 20%;
@@ -25,3 +29,20 @@ p{
 h2 {
     text-align: center;
 }
+.stars-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: visible;
+  }
+  
+  .star {
+    position: absolute;
+    /* width: 10px;
+    height: 10px; */
+    /* background-image: url('/assets/star.svg');
+    background-size: contain;
+    background-repeat: no-repeat; */
+  }

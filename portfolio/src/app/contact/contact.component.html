@@ -1,4 +1,12 @@
 <div class="page-container">
+    <div class="stars-container">
+        <div 
+          class="star" 
+          *ngFor="let star of stars"
+          [ngStyle]="{ 'top': star.top + '%', 'left': star.left + '%', 'width': star.size + 'px', 'height': star.size + 'px' }">
+          <img [src]="star.svg" [ngStyle]="{ 'width': '100%', 'height': '100%' }" alt="star" />
+        </div>
+      </div>
     <div class="content">
         <p class="accentText">04. What's Next?</p>
         <h2>Get In Touch</h2>
