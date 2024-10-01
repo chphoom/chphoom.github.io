@@ -20,6 +20,7 @@ export class ProjectService {
       github: "https://github.com/StayFull",
       website: "https://www.linkedin.com/feed/update/urn:li:activity:7095927158413344768?utm_source=share&utm_medium=member_desktop",
       img: "assets/stayfull.png",
+      img2: "assets/stayfull2.png",
       featured: true,
       year: 2023,
       employer: "WillowTree"
@@ -42,6 +43,7 @@ export class ProjectService {
       github: "https://github.com/chphoom/aroundtheblock",
       website: "https://aroundtheblock.apps.cloudapps.unc.edu/",
       img: "assets/aroundtheblock.png",
+      img2: "assets/aroundtheblock2.png",
       featured: true,
       year: 2023,
       employer: "UNC Chapel Hill"
@@ -60,6 +62,7 @@ export class ProjectService {
       github: "https://github.com/Littlesk/sparespace",
       website: "https://devpost.com/software/sparespace-mo3qru",
       img: "assets/sparespace.png",
+      img2: "assets/sparespace2.png",
       featured: true,
       year: 2023,
       employer: "PearlHacks"
@@ -77,6 +80,7 @@ export class ProjectService {
       github: "https://github.com/chphoom/fullstack-course4",
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2022,
       employer: "Coursera"
@@ -100,6 +104,7 @@ export class ProjectService {
       github: "https://github.com/comp423-23s/final-project-final-d4",
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2023,
       employer: "UNC Chapel Hill"
@@ -116,6 +121,7 @@ export class ProjectService {
       github: "https://github.com/chphoom/MemorialBoard",
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2018,
       employer: "Bull City Botics"
@@ -131,6 +137,7 @@ export class ProjectService {
       github: undefined,
       website: "https://replit.com/@chphoom/fcc-rock-paper-scissors",
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2023,
       employer: "Free Code Camp"
@@ -147,6 +154,7 @@ export class ProjectService {
       github: "https://github.com/comp426-2022-fall/a01-chphoom",
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2022,
       employer: "UNC Chapel Hill"
@@ -162,6 +170,7 @@ export class ProjectService {
       github: "https://github.com/comp426-2022-fall/a02-chphoom",
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2022,
       employer: "UNC Chapel Hill"
@@ -177,6 +186,7 @@ export class ProjectService {
       github: "https://github.com/comp426-2022-fall/a03-chphoom",
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2022,
       employer: "UNC Chapel Hill"
@@ -195,6 +205,7 @@ export class ProjectService {
       github: "https://github.com/comp426-2022-fall/a04-chphoom",
       website: "http://54.147.33.47:5000/app/roll",
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2022,
       employer: "UNC Chapel Hill"
@@ -213,6 +224,7 @@ export class ProjectService {
       github: "https://github.com/comp426-2022-fall/a99-Team18",
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2022,
       employer: "UNC Chapel Hill"
@@ -226,6 +238,7 @@ export class ProjectService {
       github: undefined,
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2021,
       employer: "UNC Chapel Hill"
@@ -242,6 +255,7 @@ export class ProjectService {
       github: undefined,
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2021,
       employer: "UNC Chapel Hill"
@@ -256,6 +270,7 @@ export class ProjectService {
       github: undefined,
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2023,
       employer: "UNC Chapel Hill"
@@ -269,6 +284,7 @@ export class ProjectService {
       github: undefined,
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2022,
       employer: "UNC Chapel Hill"
@@ -282,6 +298,7 @@ export class ProjectService {
       github: undefined,
       website: undefined,
       img: undefined,
+      img2: undefined,
       featured: false,
       year: 2020,
       employer: "UNC Chapel Hill"

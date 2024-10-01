@@ -61,9 +61,10 @@ h3#title {
         width: 60%;
     }
 
-    .overlay:before {
-        background-color: var(--sunsetPurple);
-        opacity: 0.5;
+    .overlay {
+        position: relative;
+        width: 40vw;
+        height: 27vw;
     }
 
     .widecard-contentL {
@@ -87,11 +88,10 @@ h3#title {
         width: 100%;
     }
 
-    .overlay:before {
-        background-color: white;
-        opacity: 0.8;
-        backdrop-filter: blur(5px);
-        /* Apply the blur effect */
+    .overlay {
+        position: relative;
+        width: 80vw;
+        height: 50vw;
     }
 
     .widecard-contentL {
@@ -116,12 +116,10 @@ h3#title {
     .imageR {
         width: 100%;
     }
-
-    .overlay:before {
-        background-color: white;
-        opacity: 0.8;
-        backdrop-filter: blur(5px);
-        /* Apply the blur effect */
+    .overlay {
+        position: relative;
+        width: 80vw;
+        height: 50vw;
     }
 
     .widecard-contentL,
@@ -142,11 +140,36 @@ h3#title {
     height: 100%;
 }
 
-.overlay {
-    position: relative;
+.imageL .overlay img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+}
+.imageL .overlay img:last-child {
+    transition: 1s;
+}
+.imageL .overlay:hover img:last-child {
+    opacity: 0;
 }
 
-.overlay:before {
+.imageR .overlay img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+}
+.imageR .overlay img:last-child {
+    transition: 1s;
+}
+.imageR .overlay:hover img:last-child {
+    opacity: 0;
+}
+/* .overlay:before {
     content: "";
     position: absolute;
     top: 0;
@@ -159,7 +182,7 @@ h3#title {
 
 .overlay:hover:before {
     opacity: 0;
-}
+} */
 
 .imageL {
     left: 0;

@@ -11,11 +11,12 @@ export class AboutComponent {
   public text: string[];
   public skills: string[];
   public image: string;
-  // TODO: add image the same way
+  public image2: string;
 
   constructor(private data: DataService,private projects: ProjectService) {
     this.text = data.getAboutMe()    
     this.skills = projects.getSkills()
     this.image = data.getMyImage()
+    this.image2 = data.getMyImage2()
   }
 }

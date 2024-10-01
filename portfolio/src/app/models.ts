@@ -26,6 +26,7 @@ export interface Project {
     github: string | undefined
     website: string | undefined
     img: string | undefined
+    img2: string | undefined
     featured: boolean
     year: number
     employer: string | undefined
