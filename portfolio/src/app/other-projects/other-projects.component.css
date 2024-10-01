@@ -46,15 +46,20 @@ p.subheader {
     margin-top: 0;
 }
 
+h3 {
+    color: white;
+    -webkit-text-stroke: 0px white;
+}
+
 h4 {
-    color: var(--secondaryColor);
+    color: white;
     font-size: 20px;
 }
 
 .gridcard {
     display: flex;
     flex-direction: column;
-    background-color: var(--bkgMid);
+    background-color: var(--sunsetMagenta);
     padding: 2em;
     text-align: start;
 }
@@ -74,6 +79,10 @@ h4 {
     margin-top: auto;
 }
 
+
+.accentText.tag {
+    color: var(--sunsetBlue)
+}
 .tag {
     margin: 0;
     font-size: 14px;
@@ -86,11 +95,15 @@ button:hover {
     padding: 15px 20px;
 }
 
+button:hover {
+    color: var(--sunsetBlue);
+}
+
 a#link {
     text-decoration: underline transparent;
     transition: text-decoration-color 300ms;
 }
 
 a#link:hover {
-    text-decoration-color: var(--primaryColor);
+    text-decoration-color: var(--sunsetYellow);
 }

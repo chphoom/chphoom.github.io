@@ -116,9 +116,13 @@ button:hover {
 
 button:hover {
     /* background-color: var(--sunsetBlue); */
-    color: var(--sunsetOrange);
-    border: 2px solid var(--sunsetOrange);
+    color: var(--sunsetBlue);
+    border: 2px solid var(--sunsetBlue);
 
+}
+
+button>a:hover{
+    color: var(--sunsetBlue);
 }
 
 ol {
