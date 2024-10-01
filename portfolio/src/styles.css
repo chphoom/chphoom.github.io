@@ -29,15 +29,15 @@ p.defaultText {
 }
 
 .darkText {
-    color: var(--textDark);
+    color: var(--sunsetBlue);
 }
 
 .lightText {
-    color: var(--textLight);
+    color: var(--sunsetYellow);
 }
 
 .lighterText {
-    color: var(--bkgLight);
+    color: white;
 }
 
 /* .roboto-semibold { */
@@ -103,9 +103,9 @@ ul {
 }
 
 button.reg {
-    color: var(--primaryColor);
+    color: var(--sunsetYellow);
     background-color: transparent;
-    border: 2px solid var(--primaryColor);
+    border: 2px solid var(--sunsetYellow);
     padding: 10px 15px;
     border-radius: 6%;
     text-align: center;
@@ -115,9 +115,9 @@ button.reg {
 }
 
 button.reg:hover {
-    color: var(--primaryColor);
-    background-color: var(--bkgMid);
-    border: 2px solid var(--primaryColor);
+    color: var(--sunsetYellow);
+    /* background-color: var(--sunsetBlue); */
+    border: 2px solid var(--sunsetYellow);
     padding: 10px 15px;
     border-radius: 6%;
     text-align: center;
