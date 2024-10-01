@@ -1,13 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --primaryColor: #619257;
-    --secondaryColor: #886FA4;
-    --accentColor: #CFC3AA;
-    --bkgDark: #4A3824;
-    --bkgMid: #E8D5BA;
-    --bkgLight: #F5E6D0;
-    --textDark: #574D2E;
-    --textLight: #776D4F;
     --sunsetYellow: #FAAA39;
     --sunsetOrange: #F76f25;
     --sunsetPink: #db5a54;
