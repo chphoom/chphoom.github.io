@@ -148,21 +148,21 @@ button.reg:hover {
         border-width: 0;
         border-left-style: solid;
         border-left-width: 2px;
-        border-left-color: var(--textLight);
+        border-left-color: white;
     }
 
     button.tabs:hover {
         border-width: 0;
         border-left-style: solid;
         border-left-width: 4px;
-        border-left-color: var(--textLight);
+        border-left-color: white;
     }
 
     button.tabActive {
         border-width: 0;
         border-left-style: solid;
         border-left-width: 4px;
-        border-left-color: var(--primaryColor);
+        border-left-color: white;
     }
 }
 
@@ -172,26 +172,26 @@ button.reg:hover {
         border-width: 0;
         border-bottom-style: solid;
         border-bottom-width: 2px;
-        border-bottom-color: var(--textLight);
+        border-bottom-color: white;
     }
 
     button.tabs:hover {
         border-width: 0;
         border-bottom-style: solid;
         border-bottom-width: 4px;
-        border-bottom-color: var(--textLight);
+        border-bottom-color: white;
     }
 
     button.tabActive {
         border-width: 0;
         border-bottom-style: solid;
         border-bottom-width: 4px;
-        border-bottom-color: var(--primaryColor);
+        border-bottom-color: white;
     }
 }
 
 button.tabs {
-    color: var(--textLight);
+    color: white;
     background-color: transparent;
     padding: 10px 15px;
     text-align: center;
@@ -201,16 +201,17 @@ button.tabs {
 }
 
 button.tabs:hover {
-    color: var(--textLight);
-    background-color: var(--bkgMid);
+    color: white;
+    /* this shade is a transparent version of sunset magenta */
+    background-color: rgba(115, 48, 76, 0.5);
     padding: 10px 15px;
     text-align: center;
     font-size: 16px;
 }
 
 button.tabActive {
-    color: var(--primaryColor);
-    background-color: var(--bkgMid);
+    color: white;
+    background-color: rgba(115, 48, 76, 0.5);
     padding: 10px 15px;
     text-align: center;
     font-size: 16px;

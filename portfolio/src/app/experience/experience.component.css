@@ -31,15 +31,12 @@
 
 
 
-/* Small devices (phones, 425px and below) */
-@media only screen and (max-width: 425px) {
+/* Small + med devices (phones, 768px and below) */
+@media only screen and (max-width: 768px) {
     .content-container {
         display: flex;
         flex-direction: column;
-    }
-    
-    .tabcontent {
-        margin-top: 10px;
+        gap: 20px;
     }
 }
 
