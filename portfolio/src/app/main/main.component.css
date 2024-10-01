@@ -5,6 +5,6 @@
     justify-content: center;
     align-items: center;
     gap: 200px;
-    background-color: var(--bkgLight);
+    background-image: linear-gradient(var(--sunsetYellow) 0%, var(--sunsetOrange) 10%,var(--sunsetPink) 25%,var(--sunsetRed) 35%,var(--sunsetMagenta)50%,var(--sunsetPurple) 75%,var(--sunsetBlue) 100%);
     width: 100%;
 }
