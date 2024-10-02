@@ -12,7 +12,7 @@
                     <img src="{{f.img2}}">
                 </div>
             </div>
-            <div [ngClass]="{'widecard-contentR': i%2==0, 'widecard-contentL': i%2!=0}">
+            <div [ngClass]="{'widecard-contentR': i%2==0, 'widecard-contentL': i%2!=0, 'smbg1':i==0, 'smbg2':i==1, 'smbg3':i==2}">
                 <p class="accentText">Featured Project</p>
                 <h3 id="title">{{f.title}}</h3>
                 <p class="desc lighterText defaultText" [ngClass]="{'cornerL': i%2==0, 'cornerR':i%2!=0, 'bg1':i==0, 'bg2':i==1, 'bg3':i==2}">{{f.details}}</p>
