@@ -36,6 +36,7 @@ h2 {
     top: 0;
     left: 0;
     overflow: visible;
+    pointer-events: none; /* Allow clicks to pass through */
   }
   
   .star {
