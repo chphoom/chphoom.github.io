@@ -44,7 +44,7 @@ export class ProjectService {
       website: "https://aroundtheblock.apps.cloudapps.unc.edu/",
       img: "assets/aroundtheblock.png",
       img2: "assets/aroundtheblock2.png",
-      featured: true,
+      featured: false,
       year: 2023,
       employer: "UNC Chapel Hill"
     },
@@ -63,7 +63,7 @@ export class ProjectService {
       website: "https://devpost.com/software/sparespace-mo3qru",
       img: "assets/sparespace.png",
       img2: "assets/sparespace2.png",
-      featured: true,
+      featured: false,
       year: 2023,
       employer: "PearlHacks"
     },
@@ -303,6 +303,42 @@ export class ProjectService {
       year: 2020,
       employer: "UNC Chapel Hill"
     },
+    {
+      title: "Bridging the Gap: Challenges and Opportunities in Implementing Assistive Technologies and UDL in Higher Education",
+      details: "This project explores ways to strengthen the use of digital assistive technologies and Universal Design for Learning (UDL) in higher education by identifying key barriers (like low awareness, inconsistent faculty adoption, and financial challenges) and recommending solutions to improve accessibility for neurodivergent and disabled students.",
+      skills: [
+        "Research Design",
+        "Data Collection",
+        "Data Analysis",
+        "Literature Review",
+      ],
+      github: undefined,
+      website: "https://youtu.be/DnwHtqsBv_U",
+      img: "assets/bridgingthegap.png",
+      img2: "assets/bridgingthegap2.png",
+      featured: true,
+      year: 2025,
+      employer: "Georgia Institute of Technology"
+    },
+    {
+      title: "Wingull",
+      details: "This project addresses the challenges of managing small personal DIY and craft projects. We designed a tool to help users stay organized, motivated, and confident when resuming projects after long breaks, aiming to support creativity without adding complexity.",
+      skills: [
+        "UX Design",
+        "Project Management",
+        "User Research",
+        "User Testing",
+        "Wireframing",
+        "Figmas",
+      ],
+      github: undefined,
+      website: "https://youtu.be/mMnrPdELwZ4",
+      img: "assets/wingull.png",
+      img2: "assets/wingull2.png",
+      featured: true,
+      year: 2025,
+      employer: "Georgia Institute of Technology"
+    },
     // {
     //   title: "test",
     //   details: "test",
@@ -327,7 +363,7 @@ export class ProjectService {
   }
 
   getFeaturedProjects() {
-    return this.projects.filter((p) => p.featured == true)
+    return this.projects.filter((p) => p.featured == true).sort((a, b) => b.year - a.year)
   }
 
   getOtherProjects() {
