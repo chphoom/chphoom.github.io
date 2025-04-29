@@ -9,6 +9,16 @@ export class ExperienceService {
 
   experiences: Experience[] = [ //this is from most to least recent
     {
+      position: "Research Assistant",
+      employer: "Georgia Institute of Technology",
+      start: "May 2025",
+      end: "April 2026",
+      details: [
+        "Joining the Design Intelligence Lab to support the SAMI project, contributing to research and development efforts focused on intelligent tutoring systems and adaptive learning technologies.",
+        "Anticipating responsibilities in user research, system design, and evaluation, with final project assignments to be determined."
+      ]
+    },
+    {
       position: "Software Engineering Intern",
       employer: "WillowTree",
       start: "June 2023",
@@ -28,7 +38,7 @@ export class ExperienceService {
         "Mentored and assisted over 275 Computer Organization students, explaining challenging concepts to both Computer Science and non-technical majors",
         "Coordinated office hours and lesson plans in conjunction with 6 other teaching assistant in order to ensure widespread availability and quickly return tests and assignments to students"
       ]
-    }
+    },
   ]
 
   constructor() { }
