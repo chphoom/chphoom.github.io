@@ -4,6 +4,12 @@
     flex-direction: row;
 }
 
+.tabs {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
 .header-container {
     justify-content: flex-start;
     align-items: center;
